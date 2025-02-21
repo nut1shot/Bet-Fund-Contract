@@ -1,0 +1,16 @@
+[package]
+name = "bet_fund"
+version = "1.0.0"
+authors = []
+
+[addresses]
+bet_fund = "8c3ad3aae1af6d8af216c16fad703fe3f3017a7f5a581d42734f90a4d502caf2"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/movementlabsxyz/aptos-core.git"
+rev = "movement"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
